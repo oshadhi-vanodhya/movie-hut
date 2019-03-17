@@ -1,0 +1,20 @@
+.container {
+  max-width: 960px;
+  overflow:scroll;
+}
+
+.lh-condensed { line-height: 1.25; }
+
+
+
+
+footer
+{
+margin:0px;
+overflow:scroll;
+opacity: 0.9;
+width:100%;
+
+padding-top: 3rem!important;
+margin-top: 3rem!important;
+}

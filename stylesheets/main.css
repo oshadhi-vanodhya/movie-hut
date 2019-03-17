@@ -1,0 +1,116 @@
+
+h4{text-align:right;}
+
+
+nav
+{ 
+float:left;
+width:1475px;
+height:40px;
+background-color:#FC0;
+box-shadow: 0px 0px 25px #000000;
+border-radius:10px;
+font-family:calibri;
+font-weight: bold;
+font-size:16px;
+padding:15px 0 3px 25px;}
+
+a{color:white; text-decoration:underline}
+a:hover{color:#919191;text-decoration:none;}
+
+nav a{
+color:black;
+text-decoration:none;
+padding :15px;}
+
+nav a:hover{
+color:#919191;
+}
+
+header{
+width:1400px;
+height:138px;
+background-color:PURPLE;                     
+font-family:Arial;     
+font-style:italic;
+font-size:25px;                                   
+padding:25px 0 0 100px;
+color:#FC0;                                   
+}
+
+.button1 {
+    background-color: #4CAF50;
+    border-radius: 10px;    
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;    
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button1:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+
+footer
+{content:"";
+margin:0px;
+clear:both;
+opacity: 0.9;
+width:100%;
+text-align:center;
+font-family:"times new roman";
+color:white;
+background-color:black;}
+
+.container {
+    padding: 15px;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    
+    padding: 5px 5px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width:14%;
+}
+
+.button {
+    background-color:purple;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 30px;
+	    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    margin: 8px 0;
+    border: 10px solid #ccc;
+    cursor: pointer;
+    width:80%;
+}
+
+.button:hover {
+    opacity: 0.8;
+    background-color:black;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+
+}
+span.password {
+    float: right;
+   
+}
+
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: black;
+    color: white;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 5px solid #888;
+    opacity: 0.8;
+    width: 60%; /* Could be more or less, depending on screen size */
+}
